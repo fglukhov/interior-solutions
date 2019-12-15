@@ -79,6 +79,46 @@ var baseUrl = "http://test.fglukhov.tmweb.ru/planb/";
 
 $(document).ready(function () {
 
+	// Catalog item gallery
+
+	$(".catalog-item-gallery").slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		rows: 0,
+		speed: 350,
+		fade: true,
+		dots: true
+	});
+
+	// Catalog item gallery END
+
+	// Catalog slider
+
+	$(".catalog-slider").slick({
+		slidesToShow: 4,
+		slidesToScroll: 4,
+		rows: 0,
+		speed: 750,
+		responsive: [
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 3,
+					slidesToScroll: 3
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
+	});
+
+	// Catalog slider END
+
 	// Mob catalog
 
 	if ($("#mobile-indicator").css("display") == "block") {
