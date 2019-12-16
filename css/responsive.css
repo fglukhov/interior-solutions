@@ -125,7 +125,10 @@
   .catalog-item-gallery .slick-slide {
     height: 418px; }
   .finish-item-descr {
-    padding: 0; } }
+    padding: 0; }
+  .section-map:before {
+    left: 20px;
+    right: 20px; } }
 
 @media (max-width: 991px) {
   label.placeholder {
@@ -828,4 +831,15 @@
   .finish-item h3, .finish-item .h3 {
     font-size: 26px;
     line-height: 30px;
-    margin: 0 0 10px 0; } }
+    margin: 0 0 10px 0; }
+  .section-map:before {
+    display: none; }
+  .contacts-map {
+    height: 320px; }
+  .section-map h3,
+  .section-map .h3 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 40px; }
+  .section-map .section-content {
+    padding-bottom: 30px; } }

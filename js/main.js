@@ -1047,12 +1047,12 @@ $(document).ready(function () {
 	ymaps.ready(function () {
 
 		var myMap = new ymaps.Map('contactsMap', {
-				center: [55.711189, 37.652777],
+				center: [51.476316, -0.182064],
 				zoom: 16,
 				controls: ['zoomControl']
 			}, {}),
 
-			myPlacemark = new ymaps.Placemark([55.711189, 37.652777], {
+			myPlacemark = new ymaps.Placemark([51.476316, -0.182064], {
 				hintContent: '',
 				balloonContent: ''
 			}, {
@@ -1062,10 +1062,10 @@ $(document).ready(function () {
 				// Своё изображение иконки метки.
 				iconImageHref: 'images/map-pin.png',
 				// Размеры метки.
-				iconImageSize: [44, 60],
+				iconImageSize: [34, 51],
 				// Смещение левого верхнего угла иконки относительно
 				// её "ножки" (точки привязки).
-				iconImageOffset: [-22, -60]
+				iconImageOffset: [-17, -51]
 			});
 
 		myMap.behaviors.disable('scrollZoom');

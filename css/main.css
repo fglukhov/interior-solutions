@@ -2437,3 +2437,89 @@ table.catalog-item-info td.button .btn {
 
 .section-also .section-content {
   padding-top: 133px !important; }
+
+.top-contacts {
+  position: relative;
+  margin: 34px 0 0 0; }
+
+.top-contacts-sup-ttl {
+  position: absolute;
+  left: -92px;
+  top: 5px;
+  font-family: 'Playfair Display';
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: right;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #AD8E52;
+  width: 0;
+  height: 0; }
+
+.top-contacts-sup-ttl .cont {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  transform-origin: right top; }
+
+.top-contacts .contacts-link-phone,
+.top-contacts .contacts-link-phone:focus {
+  color: #fff; }
+
+.top-contacts .contacts-link-phone:hover {
+  color: #AD8E52; }
+
+.contacts-item-address {
+  position: relative;
+  padding: 0 0 0 60px; }
+
+.contacts-item-address:before {
+  content: "";
+  width: 18px;
+  height: 24px;
+  background: url(../images/ico-contacts-address.svg) 0 0 no-repeat;
+  position: absolute;
+  left: 8px;
+  top: -1px; }
+
+.top-contacts .soclinks {
+  padding: 15px 0 0 60px; }
+
+.section-main-slider-contacts .main-slider .slide {
+  justify-content: flex-end;
+  padding-bottom: 200px; }
+
+.section-map {
+  margin-top: -150px;
+  position: relative; }
+
+.section-map:before {
+  content: "";
+  border: 20px solid #AD8E52;
+  position: absolute;
+  left: 75px;
+  right: 75px;
+  top: 0;
+  bottom: 0; }
+
+.section-map .section-content {
+  padding-top: 0;
+  padding-bottom: 70px; }
+
+.contacts-map {
+  height: 450px;
+  max-width: 870px;
+  margin: 0 auto; }
+
+.section-map h3,
+.section-map .h3 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #AD8E52;
+  max-width: 380px;
+  margin: 62px 0 26px 0; }
