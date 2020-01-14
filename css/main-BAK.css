@@ -1099,10 +1099,13 @@ ul.navbar-nav a.active {
   justify-content: flex-start;
   color: #fff; }
 
+.why-list .row {
+  margin: 0; }
+
 .why-list .row > * {
+  padding: 0;
   display: flex;
-  flex-direction: column;
-  padding-bottom: 30px; }
+  flex-direction: column; }
 
 .why-tmb {
   flex-grow: 1;
@@ -1475,9 +1478,6 @@ a.all-link:before {
 
 .section-projects .section-sup-ttl {
   top: -95px; }
-
-.section-projects-alt .section-content {
-  padding-bottom: 60px; }
 
 .projects-slider-wrapper {
   margin: 46px -15px 0 -15px; }

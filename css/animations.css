@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 0px) {
 
   .revealing {
     position: relative;
@@ -26,6 +26,10 @@
   .about-numbers-item {
     /*transition: all .75s ease;*/
     transition: none;
+  }
+
+  .why-tmb {
+    background: #000;
   }
 
 }

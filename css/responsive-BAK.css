@@ -194,13 +194,10 @@
   .why-tmb-descr {
     padding: 20px; }
   .why-tmb {
-    font-size: 14px;
-    margin: 0 0 15px 0; }
+    font-size: 14px; }
   .why-tmb h3, .why-tmb .h3 {
     font-size: 18px;
     line-height: 24px; }
-  .why-list .row > * {
-    padding-bottom: 0; }
   .section-order h2, .section-order .h2 {
     font-size: 40px;
     line-height: 45px; }
@@ -602,7 +599,7 @@
     clear: both; }
   .cat-list .row {
     display: inline;
-    margin: 0 -5px; }
+    margin: 0; }
   .cat-list .col,
   .cat-list .col-12 {
     display: inline;
@@ -611,13 +608,9 @@
   .cat-tmb {
     width: 50%;
     float: left;
-    margin: 0 0 10px 0;
+    margin: 0 0 0 0;
     padding-top: 0;
-    height: 150px;
-    padding: 0 5px; }
-  .cat-tmb-pic {
-    left: 5px;
-    right: 5px; }
+    height: 150px; }
   .cat-tmb h3, .cat-tmb .h3 {
     font-size: 16px;
     line-height: 22px; }
@@ -849,13 +842,4 @@
     line-height: 35px;
     margin-top: 40px; }
   .section-map .section-content {
-    padding-bottom: 30px; }
-  .contacts-wrapper + h3,
-  .contacts-wrapper + .h3 {
-    display: none; }
-  .section-contacts .order-form {
-    display: none; }
-  .footer-logo {
-    margin: 0 0 30px 0; }
-  .footer-copy {
-    margin-bottom: 0; } }
+    padding-bottom: 30px; } }

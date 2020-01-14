@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="js/fancybox/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="css/responsive.css">
   </head>
   <body>
@@ -202,7 +203,7 @@
             <div class="row">
               <div class="col-12 col-sm-12 col-lg-3">
                 <div class="footer-logo"><a href="/" alt="Interior Solutions"><img src="images/footer-logo.svg" alt="Intrerior Solutions"></a></div>
-                <div class="footer-copy">
+                <div class="footer-copy d-none d-sm-block">
                   <p>&copy;&nbsp;Interior Solutions&nbsp;&mdash; Мебельная мастерская.<br>2019. Все права защищены</p>
                 </div>
               </div>
@@ -234,6 +235,9 @@
                   <div class="footer-contacts-address">
                     <p>101 Design Centre Chelsea Harbour London, SW10&nbsp;OXE</p>
                   </div>
+                </div>
+                <div class="footer-copy d-block d-sm-none">
+                  <p>&copy;&nbsp;Interior Solutions&nbsp;&mdash; Мебельная мастерская.<br>2019. Все права защищены</p>
                 </div>
               </div>
             </div>
@@ -378,9 +382,17 @@
       <script src="js/wNumb.min.js"></script>
       <script src="js/slick.min.js"></script>
       <script src="js/fancybox/jquery.fancybox.min.js"></script>
+      <script src="js/greensock/TweenMax.min.js"></script>
+      <script src="js/greensock/plugins/CSSRulePlugin.min.js"></script>
+      <script src="js/greensock/plugins/ScrollToPlugin.min.js"></script>
+      <script src="js/iscroll-probe.js"></script>
+      <script src="js/scrollmagic/ScrollMagic.min.js"></script>
+      <script src="js/scrollmagic/plugins/animation.gsap.min.js"></script>
+      <script src="js/jquery.mousewheel.js"></script>
       <script src="js/bootstrap-fileinput/js/fileinput.min.js"></script>
       <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
       <script src="js/main.js"></script>
+      <script src="js/animations.js"></script>
     </div>
   </body>
 </html>
