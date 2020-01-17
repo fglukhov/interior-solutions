@@ -45,6 +45,22 @@ $(window).on("load", function() {
 });
 var baseUrl = "http://test.fglukhov.tmweb.ru/planb/";
 $(document).ready(function() {
+
+	// Categories slider
+
+	$(".cat-slider").slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		infinite: false,
+		speed: 750,
+		arrows: true,
+		dots: false,
+		swipe: true,
+		rows: 0
+	});
+
+	// Categories slider END
+
 	// Catalog item gallery
 	$(".catalog-item-gallery").slick({
 		slidesToShow: 1,
@@ -850,7 +866,34 @@ function formSuccess(form) {
 }
 
 function slickResponsive() {
-	if ($("#mobile-indicator").css("display") == "block") {} else {}
+
+	if ($("#mobile-indicator").css("display") == "block") {
+
+		if ($(".cat-slider").hasClass("slick-initialized")) {
+
+			$(".cat-slider").slick("unslick");
+
+		}
+
+	} else {
+
+		if (!$(".cat-slider").hasClass("slick-initialized")) {
+
+			$(".cat-slider").slick({
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				infinite: false,
+				speed: 750,
+				arrows: true,
+				dots: false,
+				swipe: true,
+				rows: 0
+			});
+
+		}
+
+	}
+
 }
 
 function getScrollBarWidth() {

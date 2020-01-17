@@ -2506,7 +2506,7 @@ table.catalog-item-info td.button .btn {
   bottom: 0; }
 
 .section-map .section-content {
-  padding-top: 0;
+  padding-top: 180px;
   padding-bottom: 70px; }
 
 .contacts-map {
@@ -2523,3 +2523,51 @@ table.catalog-item-info td.button .btn {
   color: #AD8E52;
   max-width: 380px;
   margin: 62px 0 26px 0; }
+
+.cat-slider-wrapper {
+  margin: 0 -15px; }
+
+.cat-slider .slick-slide {
+  margin: 0 15px; }
+
+.cat-slider .slick-prev {
+  top: auto;
+  bottom: -45px;
+  left: 25%;
+  margin-left: 15px; }
+
+.cat-slider .slick-next {
+  top: auto;
+  bottom: -45px;
+  right: auto;
+  left: 25%;
+  margin-left: 111px; }
+
+.all-link-wrapper-alt-cat {
+  margin: 14px 25% 0 25%;
+  padding: 0 15px; }
+
+.messenger-links-wrapper {
+  margin: 10px 0 0 60px; }
+
+.messenger-links {
+  display: flex;
+  margin: 0 -10px; }
+
+.messenger-link {
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin: 0 10px;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-position: 0 0; }
+
+.messenger-link-viber {
+  background-image: url(../images/ico-viber.png); }
+
+.messenger-link-whatsapp {
+  background-image: url(../images/ico-whatsapp.png); }
+
+.messenger-link-telegram {
+  background-image: url(../images/ico-telegram.png); }
